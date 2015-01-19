@@ -82,7 +82,7 @@ public class ChooseAreaActivity extends Activity {
 			return;
 		}
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		setContentView(R.layout.choose_area2);
+		setContentView(R.layout.choose_area);
 		listView = (ListView)findViewById(R.id.list_view);
 		titleText = (TextView)findViewById(R.id.title_text);
 		adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,dataList);
