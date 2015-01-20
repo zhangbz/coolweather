@@ -1,6 +1,5 @@
 package com.coolweather.app.util;
 
-import java.sql.Date;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
 
@@ -9,7 +8,6 @@ import org.json.JSONObject;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.content.SharedPreferences.Editor;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
 
